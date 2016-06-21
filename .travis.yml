@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "6"
+  - "4"
+  - "0.12"
+  - "0.10"
+after_success:
+  - npm run ci:coveralls
+deploy:
+  provider: npm
+  email:
+    secure: nfGUSaugZhVE7UkWiunTqxnLCNWNHxJBz73Sl/+loSPFFNh43b4vqY0UUWaFyiUWtY+rGTt+p7bKVl40EcJgOIdPSlWp+Kz22O7SYzZb53OKGIvtglKdDPA8/KE3/iQGYPtHH+00ExzMnGwulD6SOCulkDxofrM/HH68oRvwjyYgInV0M+kTHx/IXwpypChSL+59I7VGAUWJ6CzLAfyl+VGOgxdyljYssmjf/ylGjlxO81j7hqIIhG7rzWiSuuPZUH1dzNz5ji/6KaaI4VL0rMc4vOlFB8nglMlZDAEVH5/jA5LfndCeJOES8vEEKLnD+NSeCgXHhFbxLPPLVYBcQSuvUKZAMXDjgK1JvAsaL3e0YhhZ5OclNVdBA/dELXOR7xsTxF+28PPJm5InQhuM2PTOEf2yNWFLMoL6GDDWf3UQhyasiMALJXzEPxIfdv1BZbZlLBVTa54akFjPja+k8EpxbjA0z6ecFnIUQDFoe9GuRHD1TxffEXbzdaG4xR/NZjeTzV3fbj9vw1uODurrNdufNbRPuOMBMO6EaRqRYcOgpo1QlSELtLsw2IUafzkTaagyvgGyQiZ99PG0K3dB2J6KsqiMMyTLr7MjBuOcqo5Zis170CRwlmuc4nzN24xpVD7xQlyZIREV309kJ/bex7zvnFKNJvcRkd5BXKX2k80=
+  api_key:
+    secure: DWJM+6GLl9ANp8QJ2dEQXWVPGqflsRRcZQA/RvICOR/HO/c3x54yMeOMmQd5IxCP6OwFRJwm8JtrdeTIjHVEb4TPAs5dPaWYZ56bGLEgHq5EHIkYiRiKTDUwzWlmkc3SU7IcbJj6fQBMOchhqmna75lF1AwG/6by4mnGazrgF5/k8sYfXchvLm3g+kVRursyyW8eOURbEC6b8HCQEKW/7Zu0jm130nreMXvW+JTdd1E/MsyqiWH5hUFW+lVVfpeH/CSNB79z71mnx92HrTHL7Nc6uoiSPRwjwnI5JQyrpm68PsGAQ6NBk9APaUkjTxtRPvUxvDm4kyACsbwJOaQXNjB+LS9XB1rYD2GDhYpoLg6Tg93L3qTXg4gjshfncFthzIFJzG+YDR03O0IyM0Ppuo0dP7QmP1cX/F269SIzcgeFuof4MXpHQbVG1BWbhxpVfr4jHRv2QiHMefFG2UNmR4JQs7cl8Wh/bfnO4V1X+UTfkiHGKzMQOI3ATgvj/uJnSP2USqCU2mYOTi31nGhDADB6QKReYwo9ixGiJxFlZJJMY+xknK8DjX32eZJ0U9AJBn0ctcaZQa9jyUJt4TxrBxtcHHR6jOh4PPWZX41YbOrZ7sOvZD/4zVMYjUA45jaAE/2VDY8XqBpe1eDfMLwMClrr2zcVwc988loMth5V4Q8=
+  skip_cleanup: true
+  on:
+    repo: akim-mcmath/define-method
+    node: "4"
+    tags: true
