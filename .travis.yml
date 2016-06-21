@@ -14,6 +14,6 @@ deploy:
     secure: DWJM+6GLl9ANp8QJ2dEQXWVPGqflsRRcZQA/RvICOR/HO/c3x54yMeOMmQd5IxCP6OwFRJwm8JtrdeTIjHVEb4TPAs5dPaWYZ56bGLEgHq5EHIkYiRiKTDUwzWlmkc3SU7IcbJj6fQBMOchhqmna75lF1AwG/6by4mnGazrgF5/k8sYfXchvLm3g+kVRursyyW8eOURbEC6b8HCQEKW/7Zu0jm130nreMXvW+JTdd1E/MsyqiWH5hUFW+lVVfpeH/CSNB79z71mnx92HrTHL7Nc6uoiSPRwjwnI5JQyrpm68PsGAQ6NBk9APaUkjTxtRPvUxvDm4kyACsbwJOaQXNjB+LS9XB1rYD2GDhYpoLg6Tg93L3qTXg4gjshfncFthzIFJzG+YDR03O0IyM0Ppuo0dP7QmP1cX/F269SIzcgeFuof4MXpHQbVG1BWbhxpVfr4jHRv2QiHMefFG2UNmR4JQs7cl8Wh/bfnO4V1X+UTfkiHGKzMQOI3ATgvj/uJnSP2USqCU2mYOTi31nGhDADB6QKReYwo9ixGiJxFlZJJMY+xknK8DjX32eZJ0U9AJBn0ctcaZQa9jyUJt4TxrBxtcHHR6jOh4PPWZX41YbOrZ7sOvZD/4zVMYjUA45jaAE/2VDY8XqBpe1eDfMLwMClrr2zcVwc988loMth5V4Q8=
   skip_cleanup: true
   on:
-    repo: akim-mcmath/define-method
+    repo: akim-mcmath/define-static-method
     node: "4"
     tags: true
